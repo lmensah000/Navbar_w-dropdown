@@ -1,0 +1,38 @@
+*{
+    padding: 0; border: 0; margin: 0;
+    box-sizing: border-box;
+    list-style-type: none; /* Styled in normalize.css */
+    text-decoration: none;
+    color: #ccc;
+}
+
+body{
+    background-color: rgba(250, 101, 134, 0.5);
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0 auto;
+    max-width: 1550px;
+    padding-top: .5rem;
+    width: 93%;
+}
+
+.main-header a{
+    letter-spacing: .18rem;
+    text-transform: uppercase;
+}
+
+.masthead{
+    /* Both of these are needed to keep the #menu-toggle visible when nav list is active / open. */
+    position: relative;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    align-items: baseline;
+    display: flex;
+    justify-content: space-between;
+  }
